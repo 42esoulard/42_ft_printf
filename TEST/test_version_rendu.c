@@ -32,6 +32,7 @@ void	rock_or_fail(int a, int b, int *test)
 		if (fail == 0)
 			fail = *test;
 		god++;
+		getchar();
 	}
 	(*test)++;
 }
